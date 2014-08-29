@@ -1,0 +1,10 @@
+---
+layout: default
+title: Home
+---
+<p>On coding, gaming, and adventure.</p>
+<ul>
+	{% for post in site.posts %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
