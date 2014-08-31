@@ -22,7 +22,7 @@ After finishing Demon's Souls I have a few tips to avoid character remakes and t
 	* Dexterity: Spears, Halberds, Katanas, both get bows.
 2. To do this play with different weapons, decide which type you like the most.
 3. First level up your chosen stat until you can wield your weapon, don't go higher than at 35.
-4. Then 16 points in Faith for Evacutate.
+4. Then 16 points in Faith for Evacuate.
 5. Then Vitality and Endurance equally.
 
 ##Equipment
