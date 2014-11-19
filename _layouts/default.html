@@ -2,21 +2,42 @@
 <!doctype html>
 <html>
   <head>
-    <title>ebrobinson</title>
+    <title>EdBlog</title>
     <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
     <style>
-      * { font-family: 'Noto serif', serif; }
+* {
+	font-family:'Noto serif', serif;
+}
+
+body {
+	color:#2C2C3A;
+	margin:0;
+}
+
+.post {
+  padding: 0 0 0 20px;
+}
+
+header h1 {
+	margin:0;
+	padding:20px 0 0 20px;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+li {
+	display:block;
+}
     </style>
   </head>
   <body>
     <header>
-    <h1>ebrobinson</h1>
+    <h1>EdBlog</h1>
     </header>
     <section>
     {{ content }}
     </section>
-    <footer>
-    <p><a href="https://github.com/ebrobinson">GitHub</a></p>
-    </footer>
   </body>
 </html>
