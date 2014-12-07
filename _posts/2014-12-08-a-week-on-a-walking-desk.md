@@ -22,7 +22,7 @@ My treadmills have been well adjusted, but it's worth noting that yours may need
 <iframe width="560" height="315" src="//www.youtube.com/embed/FZUUBDq0z54" frameborder="0" allowfullscreen></iframe>
 
 
-I took one of the shelves from my standing desk and placed over the handles of the treadmill. It's important that you can adjust your standing desk to put the monitor at a good height as you'll be noticeably taller while walking on a treadmill.
+I took one of the shelves from my standing desk and placed it over the handles of the treadmill. It's important that you can adjust your standing desk to put the monitor at a good height as you'll be noticeably taller while walking on a treadmill.
 
 After all this effort the treadmill motor broke and I was in the market for another treadmill. Getting a new one set me back $150. Had I known how to use a treadmill properly, and done the maintenance before trying to walk on it, this could've been avoided.
 
