@@ -22,7 +22,7 @@ Welcome to the kiwicon puzzle challenge, solving this page has put you on the ro
 
 The game begins as soon as you have this guide book and your badge.
 
-You will need to havg solved the puzzle and given the code word to a member of the crew before 3pm on Friday.
+You will need to having solved the puzzle and given the code word to a member of the crew before 3pm on Friday.
 
 Note that you might find the need for a Commodore 64 or an emulator for a C64.
 
@@ -68,7 +68,7 @@ When converted back to ascii it contained a message, and the key word we finally
 
 ## A Winner Appears
 The first team of the day just managed to find the answer mere minutes before the second team finished up. 
-Congrats!
+Congrats to ss23 and skooch!
 
 Thanks to the Crue, D.Roc and everyone who contributed to finding the solution to this awesome problem.
 
