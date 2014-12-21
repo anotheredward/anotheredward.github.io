@@ -12,7 +12,15 @@ After managing to procure a tape-recorder and get the audio we were faced with t
 ## Converting From Sound To Slow Scan Television
 The team found an application called qsstv that decoded slow scan TV to images, after working around a bug with importing .wave files we found that the data was four images of some sort of assembly code. The workaround used in the winning team was to go somewhere quiet and fold the laptop so the microphone was touching the speakers as closely as possible.
 
-![6502 assembly code](/images/6502code.png)
+![6502 assembly code page 1](/images/6502code1.png)
+![6502 assembly code page 2](/images/6502code2.png)
+![6502 data page 1](/images/6502data1.png)
+![6502 data page 2](/images/6502data2.png)
+
+
+## Transcribed
+* [Assembly](/uploads/kc.asm)
+* [Data](/uploads/data)
 
 ## What Assembly Is That!?
 The audio contained 3 pages of 6502 assembly, the assembly language used to program the Commodore 64, and 1 page of data. Now we had the challenge of getting it running without access to difficult to find hardware. Luckily there are a great selection of online 6502 assemblers and emulators written in Javascript.
