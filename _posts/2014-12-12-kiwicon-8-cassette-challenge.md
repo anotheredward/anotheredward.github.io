@@ -4,13 +4,20 @@ layout: post
 
 ![kiwicon cassette](/images/cassette.jpg)
 
+## Article in progress
+This draft, released during a busy con, is an exercise in storytelling, and will be re-written.
+It's online early to share the resources and get feedback.
+
 ## The Challenge
-A rot13 encoded message in the schedule started potential hackers on their way to finding out what was on the tapes hanging from their necks.
+A rot13 encoded message in the schedule challenged hackers on to find out what was on their admission badges.
 
-After managing to procure a tape-recorder and get the audio we were faced with the challenge of working out how to decode it. Luckily someone clever had worked out that the audio was video encoded in audio. Also known as Slow Scan TV and apparently used for the space footage.
+## Recording A Tape
+We procured a tape-recorder from a second-hand store and used it to recorded the audio. Once we had a recording, we heard someone clever had worked out what the audio was at Meow the night before.
+It was slow scan tv and used for old space footage.
 
-## Converting From Sound To Slow Scan Television
-The team found an application called qsstv that decoded slow scan TV to images, after working around a bug with importing .wave files we found that the data was four images of some sort of assembly code. The workaround used in the winning team was to go somewhere quiet and fold the laptop so the microphone was touching the speakers as closely as possible.
+## Sound To Slow Scan Television
+At this point two teams were working away furiously at the problem. Team 1 used a program called qsstv that decoded slow scan tv to images. qsstv's wav import functionality is broken, so Team 1 found somewhere quiet, folded their laptop so the microphone was almost touching the speakers and imported it in to the program that way. Team 2 borrowed the 3.5mm cable that AmmonRa had on hand (thanks!) and worked around it by pluggin their mic straight in to their speakers.
+We found images of assembly and some memory dumps.
 
 ![6502 assembly code page 1](/images/6502code1.png)
 ![6502 assembly code page 2](/images/6502code2.png)
@@ -22,17 +29,17 @@ The team found an application called qsstv that decoded slow scan TV to images, 
 * [Assembly](/uploads/kc.asm)
 * [Data](/uploads/data)
 
-## What Assembly Is That!?
-The audio contained 3 pages of 6502 assembly, the assembly language used to program the Commodore 64, and 1 page of data. Now we had the challenge of getting it running without access to difficult to find hardware. Luckily there are a great selection of online 6502 assemblers and emulators written in Javascript.
+## what assembly is that!?
+The audio contained 2 pages of 6502 assembly, the assembly language used to program the commodore 64, and 2 pages of data. Now we had to get it running without a Commodore 64. luckily there are a great selection of online 6502 assemblers and emulators written in javascript.
 
-## Getting 6502 Assembly Running On Virtual 6502
-Once we had the images, both teams went about transcribing so we could execute it.
+## getting 6502 assembly running on virtual 6502
+once we had the images, both teams went about transcribing so we could execute it.
 We learned a lot from the [6502 Tutorial](https://skilldrick.github.io/easy6502/).
 Assembled the program to binary with an online [Assembler](http://e-tradition.net/bytes/6502/assembler.html).
 And executed the resulting binary on this [Emulator](http://e-tradition.net/bytes/6502/).
 
 ## Finding The Answer
-The program did not produce any output, nor did it modify the memory locations that refer to pixels on an Amiga screen. After a quick review and a bit of help we worked out that the only location in memory that was being written to was the original location of the data.
+The program did not produce any output, nor did it modify the memory locations that refer to pixels on an Commodore 64 screen. After a quick review and a bit of help we worked out that the only location in memory that was being written to was the original location of the data.
 
 When converted back to ascii it contained a message, and the key word we finally wanted to find.
 
