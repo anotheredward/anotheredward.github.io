@@ -1,51 +1,12 @@
 <meta charset="utf-8">
 <!doctype html>
-<html>
-  <head>
-    <title>EdBlog</title>
-    <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
-    <style>
-* {
-	font-family:'Noto serif', serif;
-}
-
-body {
-	color:#2C2C3A;
-	margin:0;
-	max-width: 800px;
-}
-
-.post {
-  padding: 0 0 0 20px;
-}
-
-header h1 {
-	margin:0;
-	padding:20px 0 0 20px;
-}
-
-a:link {
-	text-decoration:none;
-}
-
-.postlist li {
-	display:block;
-}
-
-.byline { 
-	margin-top: -20px;
-	font-style: italic;
-	color: #888;
-	font-size: small;
-}
-    </style>
-  </head>
-  <body>
-    <a href="/">
-      <header>
-	<h1>EdBlog</h1>
-      </header>
-    </a>
-    {{ content }}
-  </body>
-</html>
+<title>{{page.title}}</title>
+<link rel="stylesheet" href="/css/style.css">
+<a href="/">
+  <header>
+    <h2>
+      Ed Robinson's Blog
+    </h2>
+  </header>
+</a>
+{{ content }}
